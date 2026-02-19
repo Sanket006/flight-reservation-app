@@ -28,9 +28,9 @@ pipeline{
             steps{
                 sh'''
                     cd FlightReservationApplication
-                    docker build -t Sanket006/flight-reservation-app:latest . 
-                    docker push Sanket006/flight-reservation-app:latest
-                    docker rmi Sanket006/flight-reservation-app:latest
+                    docker build -t sanket006/flight-reservation-app:latest . 
+                    docker push sanket006/flight-reservation-app:latest
+                    docker rmi sanket006/flight-reservation-app:latest
                 '''
             }
         }
