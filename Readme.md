@@ -59,7 +59,7 @@ This project demonstrates end-to-end application deployment on Linux — from da
 ## 📁 Repository Structure
 
 ```
-Flight-reservation/
+flight-reservation-app/
 ├── FlightReservationSystem/        # Spring Boot backend
 │   ├── src/
 │   │   └── main/
@@ -144,8 +144,8 @@ EXIT;
 apt install openjdk-17-jdk maven -y
 
 # Clone the repository
-git clone https://github.com/Sanket006/flight-reservation-microservices.git
-cd flight-reservation-microservices/FlightReservationSystem
+git clone https://github.com/Sanket006/flight-reservation-app.git
+cd flight-reservation-app/FlightReservationSystem
 
 # Set environment variables
 export DATASOURCE_URL="jdbc:mysql://localhost:3306/flightdb"
@@ -167,7 +167,7 @@ Backend runs at: `http://localhost:8080`
 > Open a **new terminal tab** for this step.
 
 ```bash
-cd flight-reservation-microservices/frontend
+cd flight-reservation-app/frontend
 
 # Install Node.js
 apt install nodejs npm -y
